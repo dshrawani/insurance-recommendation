@@ -1,0 +1,5 @@
+insurance_company,user_budget_high,user_budget_low,user_budget_medium,user_region_southwest,user_region_southeast,user_region_northwest,user_region_northeast,clients_avg_health_score,company_avg_feedback
+Company A,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.6355555555555555,0.6524444444444445
+Company B,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.03225806451612903,0.009032258064516128
+Company C,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.4661016949152542,0.15141242937853108
+Company D,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.6789568345323741,0.8676258992805754

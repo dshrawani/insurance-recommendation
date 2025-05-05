@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# ide related
+.idea
+.vscode
+
+# dot env file to store credentials
+.env
+
+data/

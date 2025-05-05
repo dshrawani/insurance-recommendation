@@ -1,0 +1,31 @@
+[project]
+name = "health-policy-recommendation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "chandrakant-scrm", email = "chandrakant.shinde@simplecrm.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "catboost>=1.2.7",
+    "fastapi>=0.115.11",
+    "imbalanced-learn>=0.13.0",
+    "ipykernel>=6.29.5",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.1",
+    "pandas>=2.2.3",
+    "pip>=25.0.1",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "shap>=0.47.1",
+    "uvicorn>=0.34.0",
+    "xgboost>=3.0.0",
+]
+
+[project.scripts]
+health-policy-recommendation = "health_policy_recommendation:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
